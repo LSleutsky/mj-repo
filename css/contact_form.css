@@ -1,0 +1,154 @@
+/*===================================================
+BRUSCH SCRIPT MT COMPANY FONT
+=====================================================*/
+
+@font-face {
+    font-family: "Brush Script MT", cursive;
+    src: url("../fonts/Brush_Script_MT_Italic.ttf");
+}
+
+@font-face {
+    font-family: "Brush Script MT", cursive;
+    font-weight: normal;
+    font-style: italic;
+    src: url("../fonts/Brush_Script_MT_Italic.ttf");
+}
+
+/*===================================================
+=====================================================*/
+
+/*form {
+	width: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+}*/
+
+table {
+	text-align: center;
+	margin: 0 auto;
+}
+
+input {
+	text-align: center;
+}
+
+input,
+textarea {
+	/*margin: 0 0 4px 0;*/
+	margin: -5px auto;
+	padding: 15px 15px;
+	border-radius: 10px;
+	width: 300px;
+	outline: none;
+	border: 2px solid #0B5B76;
+	text-transform: capitalize;
+	color: #21313E;
+	font-size: 1.25em;
+	font-weight: 500;
+}
+
+input[type="submit"],
+input[type="reset"] {
+	background: #0B5B76;
+	border: 1px solid #61BEA1;
+	margin: 3px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+input:focus,
+textarea:focus {
+	background: #61BEA1;
+	color: #21313E;
+	border: 2px solid #0B5B76;
+}
+
+input[type="email"] {
+	text-transform: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+	background: #61BEA1;
+	color: #21313E;
+	border: 2px solid #0B5B76;
+}
+
+::-webkit-input-placeholder {
+ font-size: 16px;
+ color: #0B5B76;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 900;
+}
+
+:-moz-placeholder { /* older Firefox*/
+ font-size:14px;
+ color: #0B5B76;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 900;
+}
+
+::-moz-placeholder { /* Firefox 19+ */ 
+ font-size: 14px;
+ color: #0B5B76; 
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 900;
+}
+
+:-ms-input-placeholder { 
+ font-size: 14px; 
+ color: #0B5B76;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 900;
+}
+
+:input-placeholder { 
+ font-size: 14px; 
+ color: #0B5B76;
+ text-transform: uppercase;
+ text-align: center;
+ font-weight: 900;
+}
+
+/*================================================
+MEDIA QUERIES
+================================================*/
+
+@media screen and (min-width: 480px) {
+	input,
+	textarea {
+		width: 440px !important;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 640px) {
+	input,
+	textarea {
+		width: 500px !important;
+	}
+}
+
+@media screen and (max-width: 480px) and (min-width: 400px) {
+	input,
+	textarea {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	table {
+		margin-left: 38px !important;
+		max-width: 320px !important;
+	}
+
+	input,
+	textarea {
+		width: 300px;
+	}
+}

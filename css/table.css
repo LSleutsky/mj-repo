@@ -1,0 +1,67 @@
+table {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+thead, td {
+	border-bottom: 2px solid #fff;
+}
+
+th {
+	font-size: 1.5em;
+}
+
+thead tr th {
+	padding-top: 20px;
+}
+
+td {
+	padding: 12px 0;
+}
+
+#content {
+	color: #fff;
+}
+
+.pa {
+	font-size: 2em;
+	margin-bottom: 15px;
+	font-weight: 900;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.nj {
+	font-size: 2em;
+	font-weight: 900;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.de {
+	font-size: 2em;
+	font-weight: 900;
+	margin-top: 25px;
+	text-align: center;
+}
+/*
+#pa_coverage {
+	display: none;
+}
+
+#nj_coverage {
+	display: none;
+}
+
+#de_coverage {
+	display: none;
+}
+*/
+
+@media screen and (max-width: 400px) {
+	td {
+		font-size: 14px;
+	}
+}

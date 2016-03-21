@@ -1,0 +1,89 @@
+body {
+	font-family: "Varela Round", sans-serif;
+	background: #ccc;
+}
+
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+ul {
+	list-style: none !important;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li img  {
+	display: block;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h5 {
+	text-align: center;
+	color: #fff;
+}
+
+#overlay {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+
+#overlay img {
+ max-width: 100%;
+}
+
+#overlay p {
+ color: white; 
+}
+
+
+@media screen and (max-width: 919px) {
+	.srt-menu li a {
+		text-align: center;
+		background: #334657 !important;
+		color: #fff !important;
+		width: 100% !important;
+	}
+
+	.srt-menu li {
+		display: block;
+		width: 100% !important;
+	}
+
+	.srt-menu li a:hover {
+		background: #0B5B76 !important;
+	}
+
+	.menu-toggle {
+		width: 100%;
+		text-align: center;
+	}
+
+	.srt-menu li a.selected {
+		background: #0B5B76 !important;
+		color: #fcfff5 !important;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#overlay img {
+		width: 85%;
+	}
+}
