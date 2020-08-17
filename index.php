@@ -63,9 +63,9 @@
 
   <section id="page-header" class="clearfix">    
     <div class="wrapper" style="text-align: center">
-    	<h1 class="title"><a href="index.php" style="color: initial">MJ Repo Services</a></h1>
-      <h1 class="phone" style="text-decoration: none; font-family: Varela Round, sans-serif; font-weight: 900; font-size: 2em">267.938.8123</h1>
+      <h1 class="title"><a href="index.php" style="color: initial">MJ Repo Services</a></h1>
       <h1 class="title tap_call" style="display: none"><a href="tel:267-938-8123" style="text-decoration: none; color: red; font-family: Montserrat, sans-serif, cursive; font-style: italic; font-weight: 900; font-size: 1.25em"><img src="images/tap-to-call.png" style="width: 230px"></a></h1>
+      <a href="https://scheduler.cleardata.io/#!/calendar?a=pPsAx1uIN1mIQPGjnaLKDjxxk025NxMAN0pHbXsJYjI&b=43b" title="Repossession Scheduling | Cleardata"><img id="vin" src="https://s3-us-west-2.amazonaws.com/files.cleardata.io/media/bookAppBtn_black.png" alt="Repossession Software from Cleardata"></a>
     </div>
   </section>
 
@@ -93,7 +93,7 @@
     <section id="content">
       <h1 class="title2" style="text-align: center; text-decoration: underline">Philadelphia's Most Dependable Repossession Company</h1>
         
-          <p class="first main_para">Our mission is simple. We provide first rate vehicle repossession and recovery services. We strive for 100% customer satisfaction, and pride ourselves on our experience and know-how. Our name is widely known and respected, and our reputation speaks for itself. MJ Repo Services works very hard to upkeep safety standards, and to be as cost efficient as possible. MJ Repo Services covers the Philadelphia metro area and the surrounding suburbs, extending into New Jersey, and Delaware.</p>
+          <p class="first main_para">Our mission is simple! We provide first rate vehicle repossession and recovery services. We strive for 100% customer satisfaction, and pride ourselves on our experience and know-how. Our name is widely known and respected, and our reputation speaks for itself. MJ Repo Services works very hard to upkeep safety standards, and to be as cost efficient as possible. MJ Repo Services covers the Philadelphia metro area and the surrounding suburbs, extending into New Jersey, and Delaware.</p>
 
           <div class="service_holder_main_truck">
            <img class="service_truck two_trucks" src="images/2-trucks.jpg" alt="MJ Repo Services company tow trucks">
